@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/n"
+    tools:context=".MainActivity7">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:cardCornerRadius="10dp"
+       app:cardUseCompatPadding="true"
+       app:cardElevation="4dp">
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="250dp"
+          android:src="@drawable/paris"
+          android:scaleType="fitXY"
+          android:contentDescription="@string/b"
+          android:id="@+id/pick"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="270dp"
+          android:padding="10dp"
+          android:id="@+id/detail"/>
+   </androidx.cardview.widget.CardView>
+   <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/bus"
+       android:layout_width="150dp"
+       android:layout_height="50dp"
+       android:background="@drawable/leh"
+       android:layout_marginTop="5dp"
+       android:text="@string/s"
+       android:layout_marginEnd="10dp"
+       android:layout_gravity="end"
+       android:textStyle="bold"
+       android:textColor="@color/white"/>
+
+
+</LinearLayout>

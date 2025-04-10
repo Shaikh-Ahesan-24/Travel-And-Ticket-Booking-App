@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:cardCornerRadius="10dp"
+                   app:cardUseCompatPadding="true"
+                   app:cardElevation="3dp">
+
+                    <ImageView
+                        android:id="@+id/station"
+                       android:layout_width="140dp"
+                       android:layout_height="100dp"
+                       android:src="@drawable/laddak"
+                       android:scaleType="fitXY"
+                       android:contentDescription="@string/view"/>
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                           android:layout_marginTop="110dp"
+                          android:text="@string/ladakh"
+                          android:textStyle="bold"
+                          android:textSize="10sp"
+                          android:layout_gravity="center_horizontal"
+                         android:id="@+id/name"
+                          tools:ignore="SmallSp" />
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_height="0dp"
+                       android:layout_marginTop="130dp"
+                       android:text="@string/ladakh"
+                       android:id="@+id/detail"/>
+               </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

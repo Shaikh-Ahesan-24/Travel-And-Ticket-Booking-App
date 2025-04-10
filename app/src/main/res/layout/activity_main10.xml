@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/n"
+    android:gravity="center"
+    tools:context=".MainActivity10">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/smile"
+        android:contentDescription="@string/b"
+        android:layout_marginTop="70dp"
+        />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/wish"
+          android:textStyle="bold"
+       android:textAlignment="center"
+          android:layout_marginTop="50dp"
+          android:textSize="18sp"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thank"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/you"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

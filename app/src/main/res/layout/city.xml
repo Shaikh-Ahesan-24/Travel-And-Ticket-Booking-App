@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="110dp"
+            android:layout_height="140dp"
+
+            android:scaleType="fitXY"
+            android:contentDescription="@string/t"/>
+           <TextView
+               android:id="@+id/city"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/paris"
+               android:layout_marginTop="145dp"
+               android:textSize="10sp"
+               android:layout_gravity="center_horizontal"
+               android:textStyle="bold"
+               tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/france"
+            android:layout_marginTop="160dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/france"
+            android:layout_marginTop="175dp"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           tools:ignore="UselessLeaf">
+           <ImageView
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:src="@drawable/emirates"
+               android:scaleType="fitXY"
+               android:id="@+id/first"
+               android:layout_marginStart="10dp"
+               android:contentDescription="@string/b"/>
+           <ImageView
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:layout_below="@id/first"
+               android:src="@drawable/departure"
+               android:contentDescription="@string/t"
+               android:layout_marginTop="20dp"
+               android:layout_marginStart="20dp"/>
+           <TextView
+               android:textStyle="bold"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/fly"
+               android:id="@+id/second"
+               android:layout_marginStart="100dp"
+               android:layout_marginTop="10dp"
+               android:textSize="10sp"
+               tools:ignore="RelativeOverlap,SmallSp" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/second"
+               android:layout_marginTop="40dp"
+               android:layout_marginStart="80dp"
+               android:text="@string/style"
+               android:textStyle="bold"
+               android:textSize="20sp"/>
+           <ImageView
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:contentDescription="@string/t"
+               android:src="@drawable/tourism"
+               android:layout_alignParentEnd="true"
+               android:id="@+id/third"
+               android:layout_marginEnd="20dp"/>
+           <TextView
+               android:id="@+id/four"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/first"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="45dp"
+               android:text="@string/departure"
+               android:textSize="10sp"
+               android:textStyle="bold"
+               tools:ignore="SmallSp" />
+           <ImageView
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:contentDescription="@string/s"
+               android:src="@drawable/arrival"
+               android:layout_below="@id/third"
+               android:layout_alignParentEnd="true"
+               android:layout_marginEnd="25dp"
+               android:layout_marginTop="20dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/arrival"
+               android:textStyle="bold"
+               android:layout_below="@id/third"
+               android:layout_alignParentEnd="true"
+               android:layout_marginTop="45dp"
+               android:id="@+id/six"
+               android:layout_marginEnd="20dp"
+               android:textSize="10sp"
+               tools:ignore="RelativeOverlap,SmallSp" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/tym"
+               android:layout_below="@id/four"
+               android:layout_marginTop="5dp"
+               android:layout_marginStart="15dp"
+               android:textSize="10sp"
+               android:id="@+id/departure"
+               android:textStyle="bold"
+               tools:ignore="SmallSp" />
+           <TextView
+               android:id="@+id/arrival"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentEnd="true"
+               android:layout_below="@id/six"
+               android:text="@string/ty"
+               android:layout_marginEnd="10dp"
+               android:layout_marginTop="5dp"
+               android:textSize="10sp"
+               android:textStyle="bold"
+               tools:ignore="SmallSp" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/second"
+               android:layout_marginStart="120dp"
+               android:layout_marginTop="30dp"
+               android:textStyle="bold"
+               android:id="@+id/price"
+               android:text="@string/price"/>
+       </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
